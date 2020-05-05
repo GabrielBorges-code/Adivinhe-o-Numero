@@ -1,0 +1,1 @@
+Esse programa foi feito Java utilizando o Swing. Nesse programa o usuário deverá tentar adivinhar o número que o Gênio pensou, que vai de 0 a 5. Caso vc acerte apresentará um mensagem de parabéns, caso erre você terá um outra chance
