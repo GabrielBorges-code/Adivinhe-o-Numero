@@ -19,7 +19,7 @@ public class TelaInicial extends javax.swing.JFrame {
      */
     public TelaInicial() { //Construtor
         initComponents();
-        lblFrase.setText("<html>Vou pensar em um número de <Strong>1 a 5</Strong>. Tente Advinhar</html>");
+        lblFrase.setText("<html>Vou pensar em um número de <Strong>1 a 15</Strong>. Tente Advinhar</html>");
     }
 
     /**
@@ -58,7 +58,7 @@ public class TelaInicial extends javax.swing.JFrame {
         getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 410, 50, -1));
 
         txtVal.setFont(new java.awt.Font("Comic Sans MS", 0, 18)); // NOI18N
-        txtVal.setModel(new javax.swing.SpinnerNumberModel(1, 1, 5, 1));
+        txtVal.setModel(new javax.swing.SpinnerNumberModel(1, 1, 15, 1));
         getContentPane().add(txtVal, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 410, 60, 30));
 
         btnPalpite.setFont(new java.awt.Font("Comic Sans MS", 0, 18)); // NOI18N
@@ -77,7 +77,7 @@ public class TelaInicial extends javax.swing.JFrame {
         // TODO add your handling code here:
         
         //Aqui vai ser gerado o número de forma aleátoria
-        double n = 1  + Math.random() * (6 - 1);
+        double n = 1  + Math.random() * (16 - 1);
         int valor = (int) n; //estou transformando o número em um inteiro
         
         //Aqui estou pegando o número digitado pelo usúario
