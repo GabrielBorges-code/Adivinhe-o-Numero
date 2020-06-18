@@ -1,6 +1,8 @@
 # Adivinhe o número
 Esse programa foi feito Java utilizando o Swing. Nesse programa o usuário deverá tentar adivinhar o número que o Gênio está pensando, para não ficar muito difícil os números vão de 1 ~ 5. 
 
+caso você queira baixar somente o programa basta ir ná pasta *dist*
+
 ## imagens da do jogo
 
 Acertou!
